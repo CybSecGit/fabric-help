@@ -27,7 +27,6 @@ yt --transcript https://youtube.com/watch?v=uXs-zPc63kM | fabric --stream --patt
 
 ## Mac
 
-```
 ```bash
 ### From Clipboard
  pbpaste | fabric --pattern analyze_claims
