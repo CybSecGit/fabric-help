@@ -20,7 +20,6 @@ type article.txt | fabric --pattern analyze_claims
 echo "Explain the concept of artificial intelligence" | fabric --pattern ai
 
 ### From Youtube Transcript
-
 yt --transcript https://youtube.com/watch?v=uXs-zPc63kM | fabric --stream --pattern extract_wisdom
 ```
 
