@@ -23,7 +23,6 @@ echo "Explain the concept of artificial intelligence" | fabric --pattern ai
 
 yt --transcript https://youtube.com/watch?v=uXs-zPc63kM | fabric --stream --pattern extract_wisdom
 ```
-```
 
 ## Mac
 
