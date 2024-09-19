@@ -1,4 +1,3 @@
-
 # 🧵 Fabric Docs
 
 <p align="center">
@@ -20,10 +19,27 @@ Fabric is a powerful command-line tool that leverages AI to analyze, generate, a
 - 🏆 **Evaluation Patterns**: Assess content quality, find logical fallacies, and rate AI-generated responses.
 - 🧩 **Miscellaneous Patterns**: Perform various specialized tasks like creating user stories, explaining code, and generating flashcards.
 
+## 🔗 Pattern Combinations
+
+Explore powerful combinations of Fabric patterns for more complex tasks:
+
+- [General Pattern Combinations](pattern-combinations/general-pattern-combination-examples.md): Examples of combining various Fabric patterns for versatile applications.
+- [Security Pattern Combinations](pattern-combinations/security-pattern-combination-examples.md): Specialized combinations focused on cybersecurity applications.
 
 ## 📚 Documentation
 
 [Wiki](fabric-wiki.md) or [Cheatsheet](fabric-cheatsheet.md) depending on preference
+
+## 🛠️ Usage
+
+To generate innovative pattern combination ideas:
+
+1. Choose either the [Wiki](fabric-wiki.md) or [Cheatsheet](fabric-cheatsheet.md) based on your preference.
+2. Feed the selected document into your preferred Large Language Model (LLM).
+3. Ask the LLM to generate pattern combination ideas based on the provided information.
+4. A couple of examples are provided in the [pattern-combinations](pattern-combinations/) directory.
+
+This approach allows you to leverage AI to create unique and powerful combinations of Fabric patterns tailored to your specific needs.
 
 ## 📄 License
 
