@@ -23,7 +23,7 @@ Fabric is a powerful command-line tool that leverages AI to analyze, generate, a
 
 ## 📚 Documentation
 
-[Wiki](Fabric-Wiki.md) or [Cheatsheet](Fabric-Cheatsheet.md) depending on preference
+[Wiki](fabric-wiki.md) or [Cheatsheet](fabric-cheatsheet.md) depending on preference
 
 ## 📄 License
 
