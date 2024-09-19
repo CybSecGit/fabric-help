@@ -2,6 +2,9 @@
 
 ## Table of Contents
 
+<details>
+<summary>A-C</summary>
+
 1. [agility_story](#agility_story)
 2. [ai](#ai)
 3. [analyze_answers](#analyze_answers)
@@ -37,6 +40,12 @@
 33. [create_coding_project](#create_coding_project)
 34. [create_command](#create_command)
 35. [create_cyber_summary](#create_cyber_summary)
+
+</details>
+
+<details>
+<summary>D-I</summary>
+
 36. [create_git_diff_commit](#create_git_diff_commit)
 37. [create_idea_compass](#create_idea_compass)
 38. [create_investigation_visualization](#create_investigation_visualization)
@@ -94,6 +103,12 @@
 90. [improve_prompt](#improve_prompt)
 91. [improve_report_finding](#improve_report_finding)
 92. [improve_writing](#improve_writing)
+
+</details>
+
+<details>
+<summary>L-Z</summary>
+
 93. [label_and_rate](#label_and_rate)
 94. [official_pattern_template](#official_pattern_template)
 95. [philocapsulate](#philocapsulate)
@@ -123,6 +138,9 @@
 119. [write_nuclei_template_rule](#write_nuclei_template_rule)
 120. [write_pull-request](#write_pull-request)
 121. [write_semgrep_rule](#write_semgrep_rule)
+
+</details>
+
 
 ## agility_story
 
