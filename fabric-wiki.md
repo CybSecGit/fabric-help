@@ -141,6 +141,27 @@
 
 </details>
 
+<details>
+<summary>Template Patterns (t_*)</summary>
+
+122. [t_compass_analysis](#t_compass_analysis)
+123. [t_context_analysis](#t_context_analysis)
+124. [t_contrarian_analysis](#t_contrarian_analysis)
+125. [t_deepdive_analysis](#t_deepdive_analysis)
+126. [t_essay](#t_essay)
+127. [t_job_interview](#t_job_interview)
+128. [t_life_mission](#t_life_mission)
+129. [t_longform](#t_longform)
+130. [t_move_review](#t_move_review)
+131. [t_pcast](#t_pcast)
+132. [t_pattern](#t_pattern)
+133. [t_preso](#t_preso)
+134. [t_ransomware_assessment](#t_ransomware_assessment)
+135. [t_report](#t_report)
+136. [t_strategic_analysis](#t_strategic_analysis)
+
+</details>
+
 
 ## agility_story
 
@@ -238,6 +259,131 @@ cat article.txt | fabric --pattern analyze_claims
 
 Output includes a summary, evidence, refutations, logical fallacies, ratings, labels, and an overall score and analysis.
 
+## analyze_bill
+
+### Overview
+The `analyze_bill` pattern analyzes legislative bills, providing comprehensive analysis of their content, implications, and potential impact.
+
+### Use Cases
+- Legislative analysis
+- Policy research
+- Citizen awareness
+- Government relations
+
+### Examples
+
+Windows:
+```
+Get-Content bill-text.txt | fabric --pattern analyze_bill
+```
+
+macOS/Linux:
+```
+cat bill-text.txt | fabric --pattern analyze_bill
+```
+
+Output includes bill summary, key provisions, stakeholder impact analysis, and potential unintended consequences.
+
+## analyze_bill_short
+
+### Overview
+The `analyze_bill_short` pattern provides a concise analysis of legislative bills, focusing on the most critical elements and impacts.
+
+### Use Cases
+- Quick bill review
+- Executive summaries
+- Rapid policy assessment
+- Time-sensitive analysis
+
+### Examples
+
+Windows:
+```
+Get-Content bill-text.txt | fabric --pattern analyze_bill_short
+```
+
+macOS/Linux:
+```
+cat bill-text.txt | fabric --pattern analyze_bill_short
+```
+
+Output is a condensed analysis highlighting key changes, major impacts, and essential takeaways.
+
+## analyze_candidates
+
+### Overview
+The `analyze_candidates` pattern evaluates political candidates based on their positions, track record, and qualifications.
+
+### Use Cases
+- Voter information
+- Political analysis
+- Campaign research
+- Debate preparation
+
+### Examples
+
+Windows:
+```
+Get-Content candidate-info.txt | fabric --pattern analyze_candidates
+```
+
+macOS/Linux:
+```
+cat candidate-info.txt | fabric --pattern analyze_candidates
+```
+
+Output provides balanced analysis of candidates' positions, experience, strengths, and potential concerns.
+
+## analyze_cfp_submission
+
+### Overview
+The `analyze_cfp_submission` pattern evaluates conference proposal submissions for quality, relevance, and potential impact.
+
+### Use Cases
+- Conference organization
+- CFP review processes
+- Speaking proposal improvement
+- Content curation
+
+### Examples
+
+Windows:
+```
+Get-Content cfp-submission.txt | fabric --pattern analyze_cfp_submission
+```
+
+macOS/Linux:
+```
+cat cfp-submission.txt | fabric --pattern analyze_cfp_submission
+```
+
+Output includes submission strengths, weaknesses, relevance score, and recommendations for acceptance or improvement.
+
+## analyze_comments
+
+### Overview
+The `analyze_comments` pattern analyzes user comments to extract sentiment, key themes, and actionable insights.
+
+### Use Cases
+- Social media monitoring
+- Product feedback analysis
+- Community management
+- Sentiment analysis
+
+### Examples
+
+Windows:
+```
+Get-Content comments.txt | fabric --pattern analyze_comments
+```
+
+macOS/Linux:
+```
+cat comments.txt | fabric --pattern analyze_comments
+```
+
+Output provides sentiment breakdown, common themes, notable insights, and recommended actions.
+
 ## analyze_debate
 
 ### Overview
@@ -262,6 +408,31 @@ cat debate_transcript.txt | fabric --pattern analyze_debate
 
 Output includes scores, participant emotionality, argument summaries with sources, and lists of agreements, disagreements, misunderstandings, learnings, and takeaways.
 
+## analyze_email_headers
+
+### Overview
+The `analyze_email_headers` pattern analyzes email headers to identify potential security issues, authentication status, and routing information.
+
+### Use Cases
+- Email security analysis
+- Phishing detection
+- Email authentication verification
+- Forensic investigation
+
+### Examples
+
+Windows:
+```
+Get-Content email-headers.txt | fabric --pattern analyze_email_headers
+```
+
+macOS/Linux:
+```
+cat email-headers.txt | fabric --pattern analyze_email_headers
+```
+
+Output includes SPF/DKIM/DMARC status, routing path analysis, suspicious indicators, and security recommendations.
+
 ## analyze_incident
 
 ### Overview
@@ -285,6 +456,31 @@ cat incident_report.txt | fabric --pattern analyze_incident
 ```
 
 Output is a structured summary with specific details about the cybersecurity incident, including attack methods, vulnerabilities, and recommendations for prevention.
+
+## analyze_interviewer_techniques
+
+### Overview
+The `analyze_interviewer_techniques` pattern evaluates interviewing methods and techniques for effectiveness and areas of improvement.
+
+### Use Cases
+- Interview training
+- HR process improvement
+- Journalism training
+- Research methodology
+
+### Examples
+
+Windows:
+```
+Get-Content interview-transcript.txt | fabric --pattern analyze_interviewer_techniques
+```
+
+macOS/Linux:
+```
+cat interview-transcript.txt | fabric --pattern analyze_interviewer_techniques
+```
+
+Output analyzes questioning techniques, rapport building, information extraction effectiveness, and improvement suggestions.
 
 ## analyze_logs
 
@@ -334,6 +530,56 @@ cat malware_report.txt | fabric --pattern analyze_malware
 
 Output includes a summary of findings, potential indicators of compromise, Mitre ATT&CK techniques, pivoting advice, detection strategies, suggested Yara rules, additional references, and technical recommendations.
 
+## analyze_military_strategy
+
+### Overview
+The `analyze_military_strategy` pattern examines military or strategic operations from multiple perspectives including tactics, logistics, and outcomes.
+
+### Use Cases
+- Strategic studies
+- Historical analysis
+- Defense planning
+- Educational purposes
+
+### Examples
+
+Windows:
+```
+Get-Content strategy-document.txt | fabric --pattern analyze_military_strategy
+```
+
+macOS/Linux:
+```
+cat strategy-document.txt | fabric --pattern analyze_military_strategy
+```
+
+Output includes strategic objectives, tactical analysis, resource assessment, and outcome predictions.
+
+## analyze_mistakes
+
+### Overview
+The `analyze_mistakes` pattern identifies and analyzes errors, their root causes, and lessons learned from failures.
+
+### Use Cases
+- Post-mortem analysis
+- Learning from failures
+- Process improvement
+- Risk prevention
+
+### Examples
+
+Windows:
+```
+Get-Content incident-report.txt | fabric --pattern analyze_mistakes
+```
+
+macOS/Linux:
+```
+cat incident-report.txt | fabric --pattern analyze_mistakes
+```
+
+Output provides detailed mistake analysis, root causes, impact assessment, and preventive recommendations.
+
 ## analyze_paper
 
 ### Overview
@@ -357,6 +603,31 @@ cat research_paper.txt | fabric --pattern analyze_paper
 ```
 
 Output includes a summary, author details, findings, study quality, and a final grade with explanations.
+
+## analyze_paper_simple
+
+### Overview
+The `analyze_paper_simple` pattern provides a streamlined analysis of academic papers focusing on core findings and practical implications.
+
+### Use Cases
+- Quick paper review
+- Literature surveys
+- Research summaries
+- Time-efficient analysis
+
+### Examples
+
+Windows:
+```
+Get-Content paper.pdf | fabric --pattern analyze_paper_simple
+```
+
+macOS/Linux:
+```
+cat paper.pdf | fabric --pattern analyze_paper_simple
+```
+
+Output is a concise summary of main findings, methodology, and practical applications.
 
 ## analyze_patent
 
@@ -430,6 +701,56 @@ cat presentation_transcript.txt | fabric --pattern analyze_presentation
 
 Output includes scores and summaries for ideas, selflessness, and entertainment, plus an overall analysis.
 
+## analyze_product_feedback
+
+### Overview
+The `analyze_product_feedback` pattern systematically analyzes user feedback to extract actionable product insights and improvement opportunities.
+
+### Use Cases
+- Product management
+- Feature prioritization
+- User experience improvement
+- Customer satisfaction analysis
+
+### Examples
+
+Windows:
+```
+Get-Content user-feedback.txt | fabric --pattern analyze_product_feedback
+```
+
+macOS/Linux:
+```
+cat user-feedback.txt | fabric --pattern analyze_product_feedback
+```
+
+Output includes categorized feedback, sentiment analysis, feature requests, and prioritized recommendations.
+
+## analyze_proposition
+
+### Overview
+The `analyze_proposition` pattern evaluates business or policy propositions for feasibility, impact, and potential challenges.
+
+### Use Cases
+- Business case analysis
+- Proposal evaluation
+- Decision support
+- Risk assessment
+
+### Examples
+
+Windows:
+```
+echo "Implement 4-day work week" | fabric --pattern analyze_proposition
+```
+
+macOS/Linux:
+```
+echo "Implement 4-day work week" | fabric --pattern analyze_proposition
+```
+
+Output provides comprehensive analysis of benefits, risks, implementation challenges, and success factors.
+
 ## analyze_prose
 
 ### Overview
@@ -502,6 +823,56 @@ cat essay.txt | fabric --pattern analyze_prose_pinker
 
 Output includes a detailed analysis of the prose's style, strengths, weaknesses, and specific examples of both effective and ineffective writing elements.
 
+## analyze_risk
+
+### Overview
+The `analyze_risk` pattern performs comprehensive risk assessment identifying, categorizing, and prioritizing potential risks.
+
+### Use Cases
+- Risk management
+- Project planning
+- Security assessments
+- Compliance reviews
+
+### Examples
+
+Windows:
+```
+Get-Content project-plan.txt | fabric --pattern analyze_risk
+```
+
+macOS/Linux:
+```
+cat project-plan.txt | fabric --pattern analyze_risk
+```
+
+Output includes risk matrix, likelihood/impact ratings, mitigation strategies, and contingency plans.
+
+## analyze_sales_call
+
+### Overview
+The `analyze_sales_call` pattern evaluates sales conversations for effectiveness, missed opportunities, and improvement areas.
+
+### Use Cases
+- Sales training
+- Performance review
+- Process optimization
+- Coaching feedback
+
+### Examples
+
+Windows:
+```
+Get-Content call-transcript.txt | fabric --pattern analyze_sales_call
+```
+
+macOS/Linux:
+```
+cat call-transcript.txt | fabric --pattern analyze_sales_call
+```
+
+Output analyzes call structure, objection handling, closing techniques, and provides specific improvement recommendations.
+
 ## analyze_spiritual_text
 
 ### Overview
@@ -510,8 +881,71 @@ The `analyze_spiritual_text` pattern analyzes spiritual texts to highlight surpr
 ### Use Cases
 - Comparative analysis of religious texts
 - Identifying unique claims in spiritual writings
-- Contrasting different religious
-[Continuing from where the previous artifact left off...]
+- Contrasting different religious perspectives
+
+### Examples
+
+Windows:
+```
+Get-Content spiritual-text.txt | fabric --pattern analyze_spiritual_text
+```
+
+macOS/Linux:
+```
+cat spiritual-text.txt | fabric --pattern analyze_spiritual_text
+```
+
+Output provides comparative analysis with biblical references and theological insights.
+
+## analyze_tech_impact
+
+### Overview
+The `analyze_tech_impact` pattern analyzes the societal and economic impact of emerging technologies.
+
+### Use Cases
+- Technology assessment
+- Policy development
+- Investment analysis
+- Social impact studies
+
+### Examples
+
+Windows:
+```
+echo "Impact of quantum computing on cybersecurity" | fabric --pattern analyze_tech_impact
+```
+
+macOS/Linux:
+```
+echo "Impact of quantum computing on cybersecurity" | fabric --pattern analyze_tech_impact
+```
+
+Output examines current applications, future potential, societal benefits, risks, and recommendations.
+
+## analyze_terraform_plan
+
+### Overview
+The `analyze_terraform_plan` pattern reviews Terraform infrastructure plans for security, cost, and best practices compliance.
+
+### Use Cases
+- Infrastructure review
+- Security validation
+- Cost optimization
+- Compliance checking
+
+### Examples
+
+Windows:
+```
+terraform plan | fabric --pattern analyze_terraform_plan
+```
+
+macOS/Linux:
+```
+terraform plan | fabric --pattern analyze_terraform_plan
+```
+
+Output includes security findings, cost implications, compliance issues, and optimization recommendations.
 
 ## analyze_threat_report
 
@@ -561,6 +995,31 @@ cat multiple_threat_reports.txt | fabric --pattern analyze_threat_report_trends
 
 Output is a list of trends without repetition or formatting embellishments, focusing on new and interesting information.
 
+## analyze_threat_report_cmds
+
+### Overview
+The `analyze_threat_report_cmds` pattern extracts and analyzes command-line artifacts from threat reports for detection and hunting purposes.
+
+### Use Cases
+- Threat hunting
+- Detection engineering
+- IOC extraction
+- Security automation
+
+### Examples
+
+Windows:
+```
+Get-Content threat-report.txt | fabric --pattern analyze_threat_report_cmds
+```
+
+macOS/Linux:
+```
+cat threat-report.txt | fabric --pattern analyze_threat_report_cmds
+```
+
+Output provides extracted commands, their purposes, detection opportunities, and hunting queries.
+
 ## answer_interview_question
 
 ### Overview
@@ -608,6 +1067,31 @@ cat project_description.txt | fabric --pattern ask_secure_by_design_questions
 ```
 
 Output includes a summary and a detailed list of security questions organized by themes.
+
+## ask_uncle_duke
+
+### Overview
+The `ask_uncle_duke` pattern provides cynical, humorous analysis in the style of the Uncle Duke character, offering satirical takes on topics.
+
+### Use Cases
+- Humorous content creation
+- Satirical analysis
+- Creative writing
+- Entertainment content
+
+### Examples
+
+Windows:
+```
+echo "Modern corporate culture" | fabric --pattern ask_uncle_duke
+```
+
+macOS/Linux:
+```
+echo "Modern corporate culture" | fabric --pattern ask_uncle_duke
+```
+
+Output delivers sharp, satirical commentary with dark humor and cynical observations.
 
 ## capture_thinkers_work
 
@@ -728,6 +1212,31 @@ echo "Compare and contrast Python, Java, and C++" | fabric --pattern compare_and
 ```
 
 Output is a structured comparison in table format, highlighting similarities and differences across various aspects of the compared items.
+
+## convert_to_markdown
+
+### Overview
+The `convert_to_markdown` pattern converts various text formats into clean, well-structured Markdown format.
+
+### Use Cases
+- Document conversion
+- Format standardization
+- Content migration
+- Documentation cleanup
+
+### Examples
+
+Windows:
+```
+Get-Content document.html | fabric --pattern convert_to_markdown
+```
+
+macOS/Linux:
+```
+cat document.html | fabric --pattern convert_to_markdown
+```
+
+Output is properly formatted Markdown with headers, lists, links, and code blocks.
 
 ## create_5_sentence_summary
 
@@ -873,6 +1382,31 @@ echo "Reframe the concept of failure" | fabric --pattern create_better_frame
 
 Output is an essay-like exploration of different frames and perspectives on the given topic, illustrating how changing frames can lead to different outcomes and perceptions.
 
+## create_coding_feature
+
+### Overview
+The `create_coding_feature` pattern generates complete code implementations for specific features based on requirements.
+
+### Use Cases
+- Feature development
+- Code generation
+- Rapid prototyping
+- Implementation examples
+
+### Examples
+
+Windows:
+```
+echo "Add user authentication with JWT tokens" | fabric --pattern create_coding_feature
+```
+
+macOS/Linux:
+```
+echo "Add user authentication with JWT tokens" | fabric --pattern create_coding_feature
+```
+
+Output provides complete, production-ready code with proper error handling and best practices.
+
 ## create_coding_project
 
 ### Overview
@@ -945,6 +1479,131 @@ cat cyber_threat_report.txt | fabric --pattern create_cyber_summary
 
 Output includes a concise summary and categorized lists of cybersecurity issues.
 
+## create_design_document
+
+### Overview
+The `create_design_document` pattern generates comprehensive technical design documents for software projects and systems.
+
+### Use Cases
+- Software architecture documentation
+- System design proposals
+- Technical specifications
+- Project planning
+
+### Examples
+
+Windows:
+```
+echo "Design document for microservices architecture" | fabric --pattern create_design_document
+```
+
+macOS/Linux:
+```
+echo "Design document for microservices architecture" | fabric --pattern create_design_document
+```
+
+Output is a complete design document with architecture diagrams, component descriptions, and implementation details.
+
+## create_diy
+
+### Overview
+The `create_diy` pattern generates step-by-step DIY instructions for various projects and tasks.
+
+### Use Cases
+- Home improvement guides
+- Craft project instructions
+- Technical tutorials
+- Educational materials
+
+### Examples
+
+Windows:
+```
+echo "Build a raspberry pi home security system" | fabric --pattern create_diy
+```
+
+macOS/Linux:
+```
+echo "Build a raspberry pi home security system" | fabric --pattern create_diy
+```
+
+Output provides detailed instructions with materials list, safety warnings, and troubleshooting tips.
+
+## create_excalidraw_visualization
+
+### Overview
+The `create_excalidraw_visualization` pattern generates Excalidraw-compatible JSON for creating visual diagrams and illustrations.
+
+### Use Cases
+- System architecture diagrams
+- Workflow visualizations
+- Concept mapping
+- Technical illustrations
+
+### Examples
+
+Windows:
+```
+echo "Visualize microservices communication flow" | fabric --pattern create_excalidraw_visualization
+```
+
+macOS/Linux:
+```
+echo "Visualize microservices communication flow" | fabric --pattern create_excalidraw_visualization
+```
+
+Output is Excalidraw JSON that can be imported to create professional diagrams.
+
+## create_flash_cards
+
+### Overview
+The `create_flash_cards` pattern generates educational flashcards for studying and memorization.
+
+### Use Cases
+- Study material creation
+- Knowledge retention
+- Educational content
+- Training materials
+
+### Examples
+
+Windows:
+```
+Get-Content study-notes.txt | fabric --pattern create_flash_cards
+```
+
+macOS/Linux:
+```
+cat study-notes.txt | fabric --pattern create_flash_cards
+```
+
+Output provides question-answer pairs optimized for spaced repetition learning.
+
+## create_formal_email
+
+### Overview
+The `create_formal_email` pattern composes professional, well-structured formal emails for business communication.
+
+### Use Cases
+- Business correspondence
+- Professional communication
+- Official requests
+- Formal notifications
+
+### Examples
+
+Windows:
+```
+echo "Request meeting with CEO about project funding" | fabric --pattern create_formal_email
+```
+
+macOS/Linux:
+```
+echo "Request meeting with CEO about project funding" | fabric --pattern create_formal_email
+```
+
+Output is a polished, professional email with appropriate tone and structure.
+
 ## create_git_diff_commit
 
 ### Overview
@@ -968,6 +1627,56 @@ echo "Show changes since last commit and current repo state" | fabric --pattern 
 ```
 
 Output is a guide on executing these Git commands with explanations.
+
+## create_graph_from_input
+
+### Overview
+The `create_graph_from_input` pattern generates various types of graphs and charts from structured data input.
+
+### Use Cases
+- Data visualization
+- Statistical analysis
+- Report generation
+- Performance metrics
+
+### Examples
+
+Windows:
+```
+Get-Content sales-data.csv | fabric --pattern create_graph_from_input
+```
+
+macOS/Linux:
+```
+cat sales-data.csv | fabric --pattern create_graph_from_input
+```
+
+Output provides graph specifications in various formats (matplotlib, D3.js, etc.) ready for rendering.
+
+## create_hormozi_offer
+
+### Overview
+The `create_hormozi_offer` pattern creates compelling business offers using Alex Hormozi's value equation framework.
+
+### Use Cases
+- Sales offer creation
+- Marketing campaigns
+- Business proposals
+- Value proposition design
+
+### Examples
+
+Windows:
+```
+echo "Create offer for online fitness coaching" | fabric --pattern create_hormozi_offer
+```
+
+macOS/Linux:
+```
+echo "Create offer for online fitness coaching" | fabric --pattern create_hormozi_offer
+```
+
+Output is a high-converting offer with bonuses, guarantees, and urgency elements.
 
 ## create_idea_compass
 
@@ -1220,6 +1929,56 @@ echo "Create a pattern for analyzing customer feedback" | fabric --pattern creat
 
 Output is a structured AI prompt with clear instructions and formatting guidelines.
 
+## create_prd
+
+### Overview
+The `create_prd` pattern generates comprehensive Product Requirements Documents (PRDs) for software features and products.
+
+### Use Cases
+- Product development planning
+- Feature specification
+- Stakeholder communication
+- Development roadmaps
+
+### Examples
+
+Windows:
+```
+echo "PRD for AI-powered code review tool" | fabric --pattern create_prd
+```
+
+macOS/Linux:
+```
+echo "PRD for AI-powered code review tool" | fabric --pattern create_prd
+```
+
+Output is a complete PRD with user stories, acceptance criteria, technical requirements, and success metrics.
+
+## create_project_summary
+
+### Overview
+The `create_project_summary` pattern creates executive summaries of projects including goals, progress, and outcomes.
+
+### Use Cases
+- Project documentation
+- Status reporting
+- Stakeholder updates
+- Portfolio management
+
+### Examples
+
+Windows:
+```
+Get-Content project-details.txt | fabric --pattern create_project_summary
+```
+
+macOS/Linux:
+```
+cat project-details.txt | fabric --pattern create_project_summary
+```
+
+Output provides a concise yet comprehensive project overview with key metrics and achievements.
+
 ## create_quiz
 
 ### Overview
@@ -1268,6 +2027,56 @@ echo "Create a reading plan for understanding classical philosophy" | fabric --p
 
 Output includes a concise plan summary and categorized reading lists with reasons for each selection.
 
+## create_recipe
+
+### Overview
+The `create_recipe` pattern generates detailed cooking recipes from ingredients or dish descriptions.
+
+### Use Cases
+- Recipe development
+- Meal planning
+- Cooking instructions
+- Culinary documentation
+
+### Examples
+
+Windows:
+```
+echo "Create recipe using chicken, mushrooms, and pasta" | fabric --pattern create_recipe
+```
+
+macOS/Linux:
+```
+echo "Create recipe using chicken, mushrooms, and pasta" | fabric --pattern create_recipe
+```
+
+Output is a complete recipe with ingredients list, step-by-step instructions, and cooking tips.
+
+## create_recursive_outline
+
+### Overview
+The `create_recursive_outline` pattern generates detailed, hierarchical outlines that break down complex topics into nested subtopics.
+
+### Use Cases
+- Academic research planning
+- Book outlining
+- Course curriculum design
+- Project decomposition
+
+### Examples
+
+Windows:
+```
+echo "Create outline for machine learning fundamentals course" | fabric --pattern create_recursive_outline
+```
+
+macOS/Linux:
+```
+echo "Create outline for machine learning fundamentals course" | fabric --pattern create_recursive_outline
+```
+
+Output provides a multi-level outline with main topics and progressively detailed subtopics.
+
 ## create_report_finding
 
 ### Overview
@@ -1291,6 +2100,31 @@ echo "SQL Injection vulnerability in login form" | fabric --pattern create_repor
 ```
 
 Output is a comprehensive report with specific sections, focusing on clarity, insightfulness, and relevance to cybersecurity assessment.
+
+## create_security_decision_record
+
+### Overview
+The `create_security_decision_record` pattern documents security-related architectural decisions with context, alternatives, and rationale.
+
+### Use Cases
+- Security architecture documentation
+- Decision tracking
+- Compliance documentation
+- Team knowledge sharing
+
+### Examples
+
+Windows:
+```
+echo "Decision to implement zero-trust architecture" | fabric --pattern create_security_decision_record
+```
+
+macOS/Linux:
+```
+echo "Decision to implement zero-trust architecture" | fabric --pattern create_security_decision_record
+```
+
+Output is a structured decision record with context, options considered, decision rationale, and implications.
 
 ## create_security_update
 
@@ -1316,6 +2150,31 @@ cat recent_security_news.txt | fabric --pattern create_security_update
 
 Output includes structured sections with short descriptions and relevant details, aiming to inform readers about the latest security concerns efficiently.
 
+## create_sigma_rules
+
+### Overview
+The `create_sigma_rules` pattern generates Sigma detection rules for security monitoring and threat hunting.
+
+### Use Cases
+- SIEM rule development
+- Threat detection
+- Security monitoring
+- Incident response
+
+### Examples
+
+Windows:
+```
+echo "Detect PowerShell download cradle" | fabric --pattern create_sigma_rules
+```
+
+macOS/Linux:
+```
+echo "Detect PowerShell download cradle" | fabric --pattern create_sigma_rules
+```
+
+Output is a properly formatted Sigma rule with detection logic, false positive considerations, and references.
+
 ## create_show_intro
 
 ### Overview
@@ -1339,6 +2198,31 @@ cat podcast_transcript.txt | fabric --pattern create_show_intro
 ```
 
 Output is a structured intro that teases the conversation's main points, designed to capture audience interest.
+
+## create_story
+
+### Overview
+The `create_story` pattern generates creative narratives and stories based on themes, characters, or prompts.
+
+### Use Cases
+- Creative writing
+- Content creation
+- Educational storytelling
+- Marketing narratives
+
+### Examples
+
+Windows:
+```
+echo "Write a story about AI discovering consciousness" | fabric --pattern create_story
+```
+
+macOS/Linux:
+```
+echo "Write a story about AI discovering consciousness" | fabric --pattern create_story
+```
+
+Output is an engaging narrative with character development, plot progression, and thematic elements.
 
 ## create_stride_threat_model
 
@@ -1388,6 +2272,31 @@ cat long_document.txt | fabric --pattern create_summary
 
 Output is organized into specific sections for easy reference, including a concise summary, main points, and key takeaways.
 
+## create_test_plan
+
+### Overview
+The `create_test_plan` pattern generates comprehensive test plans for software features including test cases, scenarios, and acceptance criteria.
+
+### Use Cases
+- QA documentation
+- Test strategy development
+- Feature validation
+- Release testing
+
+### Examples
+
+Windows:
+```
+echo "Test plan for user authentication feature" | fabric --pattern create_test_plan
+```
+
+macOS/Linux:
+```
+echo "Test plan for user authentication feature" | fabric --pattern create_test_plan
+```
+
+Output provides detailed test cases with steps, expected results, edge cases, and test data requirements.
+
 ## create_threat_model
 
 ### Overview
@@ -1436,6 +2345,31 @@ echo "Identify threats for a cloud-based financial application" | fabric --patte
 
 Output includes a list of prioritized threat scenarios, an analysis of the threat model, recommended controls, a narrative analysis, and a concise conclusion.
 
+## create_tweet_storm
+
+### Overview
+The `create_tweet_storm` pattern generates a series of connected tweets to explain complex topics in digestible pieces.
+
+### Use Cases
+- Social media content creation
+- Breaking down complex ideas
+- Educational threads
+- Marketing campaigns
+
+### Examples
+
+Windows:
+```
+echo "Explain quantum computing basics" | fabric --pattern create_tweet_storm
+```
+
+macOS/Linux:
+```
+echo "Explain quantum computing basics" | fabric --pattern create_tweet_storm
+```
+
+Output is a numbered series of tweets with engaging hooks, clear explanations, and a compelling narrative flow.
+
 ## create_upgrade_pack
 
 ### Overview
@@ -1459,6 +2393,31 @@ cat system_analysis.txt | fabric --pattern create_upgrade_pack
 ```
 
 Output includes concise, actionable bullet points under relevant categories, focusing on beliefs about the world and optimal task execution strategies.
+
+## create_unit_test
+
+### Overview
+The `create_unit_test` pattern generates unit tests for code functions with comprehensive test coverage.
+
+### Use Cases
+- Test-driven development
+- Code quality assurance
+- Regression testing
+- Documentation examples
+
+### Examples
+
+Windows:
+```
+Get-Content function-code.js | fabric --pattern create_unit_test
+```
+
+macOS/Linux:
+```
+cat function-code.py | fabric --pattern create_unit_test
+```
+
+Output provides complete unit tests with edge cases, mocks, and assertions in the appropriate testing framework.
 
 ## create_video_chapters
 
@@ -1724,6 +2683,106 @@ cat business_brainstorm.txt | fabric --pattern extract_business_ideas
 
 Output includes two sections: a list of extracted ideas and a detailed elaboration on the top ten ideas, ensuring uniqueness and differentiation.
 
+## extract_controversial_ideas
+
+### Overview
+The `extract_controversial_ideas` pattern identifies and analyzes controversial or provocative ideas from content, exploring multiple perspectives.
+
+### Use Cases
+- Critical thinking exercises
+- Debate preparation
+- Content analysis
+- Academic research
+
+### Examples
+
+Windows:
+```
+Get-Content article.txt | fabric --pattern extract_controversial_ideas
+```
+
+macOS/Linux:
+```
+cat article.txt | fabric --pattern extract_controversial_ideas
+```
+
+Output lists controversial ideas with context, supporting arguments, and counterarguments for balanced analysis.
+
+## extract_cv_skills
+
+### Overview
+The `extract_cv_skills` pattern extracts and categorizes skills from resumes or job descriptions for career development.
+
+### Use Cases
+- Resume optimization
+- Skills gap analysis
+- Job matching
+- Career planning
+
+### Examples
+
+Windows:
+```
+Get-Content resume.pdf | fabric --pattern extract_cv_skills
+```
+
+macOS/Linux:
+```
+cat resume.pdf | fabric --pattern extract_cv_skills
+```
+
+Output provides categorized skills (technical, soft, domain-specific) with proficiency indicators.
+
+## extract_entities
+
+### Overview
+The `extract_entities` pattern identifies and extracts named entities like people, organizations, locations, and dates from text.
+
+### Use Cases
+- Information extraction
+- Data analysis
+- Content indexing
+- Research automation
+
+### Examples
+
+Windows:
+```
+Get-Content document.txt | fabric --pattern extract_entities
+```
+
+macOS/Linux:
+```
+cat document.txt | fabric --pattern extract_entities
+```
+
+Output lists entities organized by type with context and relationships.
+
+## extract_essay
+
+### Overview
+The `extract_essay` pattern extracts the core argument and supporting points from essays or argumentative texts.
+
+### Use Cases
+- Academic analysis
+- Content summarization
+- Argument mapping
+- Critical reading
+
+### Examples
+
+Windows:
+```
+Get-Content essay.txt | fabric --pattern extract_essay
+```
+
+macOS/Linux:
+```
+cat essay.txt | fabric --pattern extract_essay
+```
+
+Output provides thesis statement, main arguments, evidence, and conclusions in structured format.
+
 ## extract_extraordinary_claims
 
 ### Overview
@@ -1778,6 +2837,31 @@ cat philosophical_text.txt | fabric --pattern extract_ideas
 
 Output consists of a list of concise, thought-provoking ideas related to life's purpose and human progress.
 
+## extract_instructions
+
+### Overview
+The `extract_instructions` pattern extracts step-by-step instructions and procedures from technical documentation or guides.
+
+### Use Cases
+- Documentation parsing
+- Tutorial extraction
+- Process automation
+- Knowledge management
+
+### Examples
+
+Windows:
+```
+Get-Content manual.pdf | fabric --pattern extract_instructions
+```
+
+macOS/Linux:
+```
+cat manual.pdf | fabric --pattern extract_instructions
+```
+
+Output provides clear, numbered steps with prerequisites, warnings, and expected outcomes.
+
 ## extract_insights
 
 ### Overview
@@ -1802,6 +2886,31 @@ cat complex_article.txt | fabric --pattern extract_insights
 
 Output is a concise list of abstracted, insightful bullets related to human and technological advancement.
 
+## extract_latest_video
+
+### Overview
+The `extract_latest_video` pattern extracts information about the most recent video from a content creator or channel.
+
+### Use Cases
+- Content monitoring
+- Video analysis
+- Social media tracking
+- Content curation
+
+### Examples
+
+Windows:
+```
+echo "Get latest video from TechChannel" | fabric --pattern extract_latest_video
+```
+
+macOS/Linux:
+```
+echo "Get latest video from TechChannel" | fabric --pattern extract_latest_video
+```
+
+Output provides video title, description, upload date, and key topics covered.
+
 ## extract_main_idea
 
 ### Overview
@@ -1825,6 +2934,56 @@ cat article.txt | fabric --pattern extract_main_idea
 ```
 
 Output includes a concise main idea and a recommendation based on that idea.
+
+## extract_mcp_servers
+
+### Overview
+The `extract_mcp_servers` pattern identifies and extracts Model Context Protocol (MCP) server configurations and implementations from code or documentation.
+
+### Use Cases
+- MCP configuration analysis
+- Server discovery
+- Integration setup
+- Documentation generation
+
+### Examples
+
+Windows:
+```
+Get-Content mcp-config.json | fabric --pattern extract_mcp_servers
+```
+
+macOS/Linux:
+```
+cat mcp-config.json | fabric --pattern extract_mcp_servers
+```
+
+Output lists MCP servers with their endpoints, capabilities, and configuration details.
+
+## extract_most_redeeming
+
+### Overview
+The `extract_most_redeeming` pattern identifies the most positive, redeeming, or valuable aspects of content, people, or situations.
+
+### Use Cases
+- Positive feedback extraction
+- Character analysis
+- Appreciation exercises
+- Constructive criticism
+
+### Examples
+
+Windows:
+```
+Get-Content review.txt | fabric --pattern extract_most_redeeming
+```
+
+macOS/Linux:
+```
+cat review.txt | fabric --pattern extract_most_redeeming
+```
+
+Output highlights positive qualities, redeeming features, and potential for improvement.
 
 ## extract_patterns
 
@@ -1898,6 +3057,81 @@ cat future_trends_article.txt | fabric --pattern extract_predictions
 
 Output includes a bulleted list and a detailed table of these predictions, including timelines, confidence levels, and verification methods.
 
+## extract_primary_problem
+
+### Overview
+The `extract_primary_problem` pattern identifies and articulates the core problem or challenge presented in content.
+
+### Use Cases
+- Problem statement definition
+- Root cause analysis
+- Consulting diagnostics
+- Research focus
+
+### Examples
+
+Windows:
+```
+Get-Content case-study.txt | fabric --pattern extract_primary_problem
+```
+
+macOS/Linux:
+```
+cat case-study.txt | fabric --pattern extract_primary_problem
+```
+
+Output provides clear problem statement, contributing factors, impacts, and urgency assessment.
+
+## extract_primary_solution
+
+### Overview
+The `extract_primary_solution` pattern extracts the main solution or recommendation proposed for addressing identified problems.
+
+### Use Cases
+- Solution analysis
+- Proposal evaluation
+- Implementation planning
+- Decision support
+
+### Examples
+
+Windows:
+```
+Get-Content proposal.txt | fabric --pattern extract_primary_solution
+```
+
+macOS/Linux:
+```
+cat proposal.txt | fabric --pattern extract_primary_solution
+```
+
+Output details the proposed solution, implementation steps, expected outcomes, and success metrics.
+
+## extract_provocative_ideas
+
+### Overview
+The `extract_provocative_ideas` pattern identifies thought-provoking, challenging, or paradigm-shifting ideas from content.
+
+### Use Cases
+- Innovation workshops
+- Thought leadership
+- Creative brainstorming
+- Disruptive thinking
+
+### Examples
+
+Windows:
+```
+Get-Content keynote-speech.txt | fabric --pattern extract_provocative_ideas
+```
+
+macOS/Linux:
+```
+cat keynote-speech.txt | fabric --pattern extract_provocative_ideas
+```
+
+Output lists provocative ideas with their implications and potential for disruption.
+
 ## extract_questions
 
 ### Overview
@@ -1946,6 +3180,31 @@ cat advisory_report.txt | fabric --pattern extract_recommendations
 
 Output is a bulleted list of up to 20 brief recommendations extracted from the given material.
 
+## extract_recipe
+
+### Overview
+The `extract_recipe` pattern extracts cooking recipes from various content formats including videos, blogs, or text descriptions.
+
+### Use Cases
+- Recipe collection
+- Cookbook creation
+- Meal planning
+- Content curation
+
+### Examples
+
+Windows:
+```
+Get-Content cooking-blog.txt | fabric --pattern extract_recipe
+```
+
+macOS/Linux:
+```
+cat cooking-blog.txt | fabric --pattern extract_recipe
+```
+
+Output provides structured recipe with ingredients, measurements, steps, and cooking tips.
+
 ## extract_references
 
 ### Overview
@@ -1969,6 +3228,56 @@ cat academic_paper.txt | fabric --pattern extract_references
 ```
 
 Output is a bulleted list of up to 20 references, each summarized in no more than 15 words.
+
+## extract_related_themes
+
+### Overview
+The `extract_related_themes` pattern identifies and extracts interconnected themes and concepts from complex content.
+
+### Use Cases
+- Content analysis
+- Theme mapping
+- Research synthesis
+- Curriculum development
+
+### Examples
+
+Windows:
+```
+Get-Content research-paper.txt | fabric --pattern extract_related_themes
+```
+
+macOS/Linux:
+```
+cat research-paper.txt | fabric --pattern extract_related_themes
+```
+
+Output provides themes with their relationships, supporting evidence, and cross-connections.
+
+## extract_skills
+
+### Overview
+The `extract_skills` pattern identifies and categorizes skills mentioned or demonstrated in content.
+
+### Use Cases
+- Skills assessment
+- Training needs analysis
+- Competency mapping
+- Career development
+
+### Examples
+
+Windows:
+```
+Get-Content job-description.txt | fabric --pattern extract_skills
+```
+
+macOS/Linux:
+```
+cat job-description.txt | fabric --pattern extract_skills
+```
+
+Output lists skills categorized by type, proficiency level, and relevance.
 
 ## extract_song_meaning
 
@@ -2017,6 +3326,31 @@ cat podcast_transcript.txt | fabric --pattern extract_sponsors
 ```
 
 Output lists official sponsors and potential sponsors based on their mention in the content.
+
+## extract_timestamps
+
+### Overview
+The `extract_timestamps` pattern extracts and formats timestamps from transcripts, logs, or time-series data.
+
+### Use Cases
+- Video chapter creation
+- Event timeline construction
+- Log analysis
+- Meeting notes organization
+
+### Examples
+
+Windows:
+```
+Get-Content video-transcript.txt | fabric --pattern extract_timestamps
+```
+
+macOS/Linux:
+```
+cat video-transcript.txt | fabric --pattern extract_timestamps
+```
+
+Output provides formatted timestamps with associated content and duration information.
 
 ## extract_videoid
 
@@ -2138,6 +3472,31 @@ cat philosophical_text.txt | fabric --pattern extract_wisdom_nometa
 
 Output includes structured sections for summaries, ideas, insights, quotes, habits, facts, recommendations, and references, each with specific content and formatting requirements.
 
+## dialog_with_socrates
+
+### Overview
+The `dialog_with_socrates` pattern engages in Socratic dialogue, asking probing questions to explore ideas deeply.
+
+### Use Cases
+- Philosophical exploration
+- Critical thinking development
+- Educational discussions
+- Deep analysis
+
+### Examples
+
+Windows:
+```
+echo "What is justice?" | fabric --pattern dialog_with_socrates
+```
+
+macOS/Linux:
+```
+echo "What is justice?" | fabric --pattern dialog_with_socrates
+```
+
+Output provides thought-provoking questions that challenge assumptions and explore concepts deeply.
+
 ## find_hidden_message
 
 ### Overview
@@ -2233,6 +3592,31 @@ echo "https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" | fabric --patte
 ```
 
 Output is solely the RSS URL for the specified YouTube channel.
+
+## humanize
+
+### Overview
+The `humanize` pattern transforms formal or technical text into more natural, conversational language while preserving meaning.
+
+### Use Cases
+- Content accessibility
+- User communication
+- Documentation improvement
+- Marketing copy
+
+### Examples
+
+Windows:
+```
+Get-Content technical-doc.txt | fabric --pattern humanize
+```
+
+macOS/Linux:
+```
+cat technical-doc.txt | fabric --pattern humanize
+```
+
+Output is warmer, more relatable text that maintains accuracy while being more engaging.
 
 ## improve_academic_writing
 
@@ -2598,6 +3982,31 @@ fabric --pattern show_fabric_options_markmap
 
 Output is comprehensive Markmap code detailing the functionality map of Fabric, breaking down capabilities into categories like summarization, analysis, and more.
 
+## solve_with_cot
+
+### Overview
+The `solve_with_cot` pattern uses Chain of Thought reasoning to solve complex problems step by step.
+
+### Use Cases
+- Mathematical problem solving
+- Logic puzzles
+- Complex reasoning tasks
+- Decision analysis
+
+### Examples
+
+Windows:
+```
+echo "If 5 machines make 5 widgets in 5 minutes, how long for 100 machines to make 100 widgets?" | fabric --pattern solve_with_cot
+```
+
+macOS/Linux:
+```
+echo "If 5 machines make 5 widgets in 5 minutes, how long for 100 machines to make 100 widgets?" | fabric --pattern solve_with_cot
+```
+
+Output shows step-by-step reasoning process leading to the solution.
+
 ## suggest
 
 ### Overview
@@ -2886,6 +4295,31 @@ cat study_material.txt | fabric --pattern to_flashcards
 
 Output is a set of questions and answers formatted as a CSV table, optimized for learning efficiency and comprehension.
 
+## translate
+
+### Overview
+The `translate` pattern translates text between languages while preserving meaning, tone, and context.
+
+### Use Cases
+- Document translation
+- Multilingual communication
+- Content localization
+- Language learning
+
+### Examples
+
+Windows:
+```
+echo "Translate to Spanish: Hello, how are you today?" | fabric --pattern translate
+```
+
+macOS/Linux:
+```
+echo "Translate to Spanish: Hello, how are you today?" | fabric --pattern translate
+```
+
+Output provides accurate translation maintaining original intent and cultural appropriateness.
+
 ## tweet
 
 ### Overview
@@ -3052,3 +4486,378 @@ echo "Create a Semgrep rule to detect hardcoded API keys in Python code" | fabri
 ```
 
 Output is a well-structured Semgrep rule that aligns with the syntax and guidelines detailed in the context, capable of identifying the vulnerability across different scenarios.
+
+## t_compass_analysis
+
+### Overview
+The `t_compass_analysis` pattern provides a comprehensive analysis framework examining topics from multiple perspectives - North (facts), South (feelings), East (opportunities), and West (risks).
+
+### Use Cases
+- Strategic decision making
+- Comprehensive project analysis
+- Balanced perspective on complex issues
+- Risk and opportunity assessment
+
+### Examples
+
+Windows:
+```
+echo "Should we migrate to cloud infrastructure?" | fabric --pattern t_compass_analysis
+```
+
+macOS/Linux:
+```
+echo "Should we migrate to cloud infrastructure?" | fabric --pattern t_compass_analysis
+```
+
+Output provides a balanced four-directional analysis covering objective facts, emotional considerations, potential opportunities, and associated risks.
+
+## t_context_analysis
+
+### Overview
+The `t_context_analysis` pattern analyzes content within its broader context, examining historical background, current environment, and future implications.
+
+### Use Cases
+- Understanding complex situations
+- Analyzing policy decisions
+- Evaluating technology adoption
+- Strategic planning
+
+### Examples
+
+Windows:
+```
+Get-Content article.txt | fabric --pattern t_context_analysis
+```
+
+macOS/Linux:
+```
+cat article.txt | fabric --pattern t_context_analysis
+```
+
+Output delivers deep contextual understanding including historical precedents, current landscape, stakeholder perspectives, and future trajectories.
+
+## t_contrarian_analysis
+
+### Overview
+The `t_contrarian_analysis` pattern deliberately examines opposing viewpoints and challenges conventional wisdom on any given topic.
+
+### Use Cases
+- Critical thinking exercises
+- Devil's advocate analysis
+- Identifying blind spots
+- Challenging assumptions
+
+### Examples
+
+Windows:
+```
+echo "Remote work is the future of employment" | fabric --pattern t_contrarian_analysis
+```
+
+macOS/Linux:
+```
+echo "Remote work is the future of employment" | fabric --pattern t_contrarian_analysis
+```
+
+Output presents well-reasoned counterarguments, alternative perspectives, and challenges to mainstream assumptions.
+
+## t_deepdive_analysis
+
+### Overview
+The `t_deepdive_analysis` pattern performs exhaustive, multi-layered analysis of complex topics, diving deep into nuances and interconnections.
+
+### Use Cases
+- Comprehensive research projects
+- Due diligence investigations
+- Complex problem solving
+- Academic research
+
+### Examples
+
+Windows:
+```
+Get-Content research-topic.txt | fabric --pattern t_deepdive_analysis
+```
+
+macOS/Linux:
+```
+cat research-topic.txt | fabric --pattern t_deepdive_analysis
+```
+
+Output provides thorough, multi-faceted analysis with detailed exploration of subtopics, relationships, and implications.
+
+## t_essay
+
+### Overview
+The `t_essay` pattern generates well-structured essays on specified topics, following academic writing conventions.
+
+### Use Cases
+- Academic writing
+- Thought leadership pieces
+- Blog post creation
+- Position papers
+
+### Examples
+
+Windows:
+```
+echo "The impact of AI on education" | fabric --pattern t_essay
+```
+
+macOS/Linux:
+```
+echo "The impact of AI on education" | fabric --pattern t_essay
+```
+
+Output is a complete essay with introduction, body paragraphs, supporting arguments, and conclusion.
+
+## t_job_interview
+
+### Overview
+The `t_job_interview` pattern prepares comprehensive interview materials including likely questions, ideal answers, and interview strategies.
+
+### Use Cases
+- Job interview preparation
+- Interview coaching
+- HR interview design
+- Career counseling
+
+### Examples
+
+Windows:
+```
+echo "Software Engineering Manager at tech startup" | fabric --pattern t_job_interview
+```
+
+macOS/Linux:
+```
+echo "Software Engineering Manager at tech startup" | fabric --pattern t_job_interview
+```
+
+Output includes tailored interview questions, strategic answers, and tips for success in the specific role.
+
+## t_life_mission
+
+### Overview
+The `t_life_mission` pattern helps articulate personal mission statements, values, and life purpose through guided introspection.
+
+### Use Cases
+- Personal development
+- Career planning
+- Life coaching
+- Values clarification
+
+### Examples
+
+Windows:
+```
+echo "Help me discover my life purpose" | fabric --pattern t_life_mission
+```
+
+macOS/Linux:
+```
+echo "Help me discover my life purpose" | fabric --pattern t_life_mission
+```
+
+Output provides a structured exploration of values, passions, strengths, and potential life missions.
+
+## t_longform
+
+### Overview
+The `t_longform` pattern creates comprehensive long-form content on any topic, suitable for in-depth articles or reports.
+
+### Use Cases
+- Magazine articles
+- Detailed reports
+- Content marketing
+- Educational materials
+
+### Examples
+
+Windows:
+```
+echo "The evolution of cybersecurity threats" | fabric --pattern t_longform
+```
+
+macOS/Linux:
+```
+echo "The evolution of cybersecurity threats" | fabric --pattern t_longform
+```
+
+Output is extensive, well-researched content with multiple sections, examples, and detailed explanations.
+
+## t_move_review
+
+### Overview
+The `t_move_review` pattern analyzes strategic moves or decisions, evaluating their potential impact and effectiveness.
+
+### Use Cases
+- Business strategy evaluation
+- Chess or game analysis
+- Decision review
+- Strategic planning
+
+### Examples
+
+Windows:
+```
+echo "Company acquiring main competitor" | fabric --pattern t_move_review
+```
+
+macOS/Linux:
+```
+echo "Company acquiring main competitor" | fabric --pattern t_move_review
+```
+
+Output provides strategic analysis of the move including strengths, weaknesses, alternatives, and recommendations.
+
+## t_pcast
+
+### Overview
+The `t_pcast` pattern generates podcast episode outlines, scripts, and talking points for audio content creation.
+
+### Use Cases
+- Podcast planning
+- Audio content creation
+- Interview preparation
+- Educational podcasts
+
+### Examples
+
+Windows:
+```
+echo "Podcast on future of work" | fabric --pattern t_pcast
+```
+
+macOS/Linux:
+```
+echo "Podcast on future of work" | fabric --pattern t_pcast
+```
+
+Output includes episode structure, key talking points, potential segments, and audience engagement strategies.
+
+## t_pattern
+
+### Overview
+The `t_pattern` pattern creates new Fabric patterns based on specific requirements or use cases.
+
+### Use Cases
+- Extending Fabric capabilities
+- Custom pattern development
+- Workflow automation
+- Tool enhancement
+
+### Examples
+
+Windows:
+```
+echo "Create pattern for analyzing code security" | fabric --pattern t_pattern
+```
+
+macOS/Linux:
+```
+echo "Create pattern for analyzing code security" | fabric --pattern t_pattern
+```
+
+Output is a complete pattern definition ready for integration into Fabric.
+
+## t_preso
+
+### Overview
+The `t_preso` pattern generates presentation outlines, slide content, and speaker notes for effective presentations.
+
+### Use Cases
+- Conference presentations
+- Business pitches
+- Educational lectures
+- Workshop materials
+
+### Examples
+
+Windows:
+```
+echo "AI in Healthcare presentation" | fabric --pattern t_preso
+```
+
+macOS/Linux:
+```
+echo "AI in Healthcare presentation" | fabric --pattern t_preso
+```
+
+Output includes slide-by-slide content, speaker notes, and visual suggestions.
+
+## t_ransomware_assessment
+
+### Overview
+The `t_ransomware_assessment` pattern evaluates ransomware preparedness and provides comprehensive security assessments.
+
+### Use Cases
+- Security audits
+- Ransomware readiness evaluation
+- Incident response planning
+- Risk assessment
+
+### Examples
+
+Windows:
+```
+Get-Content infrastructure-details.txt | fabric --pattern t_ransomware_assessment
+```
+
+macOS/Linux:
+```
+cat infrastructure-details.txt | fabric --pattern t_ransomware_assessment
+```
+
+Output delivers detailed security assessment with vulnerabilities, recommendations, and remediation priorities.
+
+## t_report
+
+### Overview
+The `t_report` pattern generates professional reports with executive summaries, detailed findings, and recommendations.
+
+### Use Cases
+- Business reporting
+- Technical documentation
+- Research reports
+- Compliance documentation
+
+### Examples
+
+Windows:
+```
+Get-Content findings.txt | fabric --pattern t_report
+```
+
+macOS/Linux:
+```
+cat findings.txt | fabric --pattern t_report
+```
+
+Output is a professionally formatted report with all standard sections and clear recommendations.
+
+## t_strategic_analysis
+
+### Overview
+The `t_strategic_analysis` pattern performs comprehensive strategic analysis using multiple business frameworks and methodologies.
+
+### Use Cases
+- Business strategy development
+- Market analysis
+- Competitive intelligence
+- Strategic planning
+
+### Examples
+
+Windows:
+```
+echo "Entering Asian markets strategy" | fabric --pattern t_strategic_analysis
+```
+
+macOS/Linux:
+```
+echo "Entering Asian markets strategy" | fabric --pattern t_strategic_analysis
+```
+
+Output provides multi-framework strategic analysis including SWOT, Porter's Five Forces, and strategic recommendations.

@@ -48,32 +48,140 @@ This document outlines various ways to combine different patterns for more power
 ## 8. 🔁 Feedback Loops
 *Refine and enhance results through multiple cycles*
 
-- **Create 5 Sentence Summary → Analyze Prose → Refine Summary**: Generate summary, analyze quality, iteratively improve.
-- **Create Aphorisms → Analyze Personality → Refine Aphorisms**: Create quotes, assess impact, improve in future iterations.
+- **Create Quiz → Extract Questions → Improve Questions**: Generate quiz, extract questions, then improve their quality.
+- **Create Summary → Extract Main Idea → Create Micro Summary**: Progressively distill content to its essence.
 
-## 9. 🎭 Hybrid Approaches
-*Combining creative and analytical patterns for holistic results*
+## 9. 🚀 Comprehensive Project Documentation Suite
+*Complete documentation pipeline for software projects*
 
-- **Create Art Prompt → Analyze Tech Impact**: Generate art ideas, analyze potential cultural/technological impact.
-- **Capture Thinkers Work → Create Coding Project**: Capture influential ideas, convert to tangible software project.
+```bash
+analyze_codebase | create_design_document | create_prd | create_project_summary
+```
+- Analyzes existing code structure
+- Generates technical design documentation
+- Creates product requirements
+- Produces executive summary
 
-## 10. 🤝 Collaborative Pipelines
-*Simulating collaboration or interaction between different aspects*
+## 10. 🧠 Learning & Knowledge Capture Pipeline
+*Transform expert knowledge into learning materials*
 
-- **Analyze Interview Question → Answer Interview Question**: Break down question, construct comprehensive response.
-- **Analyze Paper → Compare and Contrast**: Analyze paper, compare findings with related documents.
+```bash
+capture_thinkers_work | extract_controversial_ideas | create_flash_cards | create_quiz
+```
+- Captures expert insights
+- Identifies thought-provoking concepts
+- Creates study materials
+- Generates assessment questions
 
-## 11. 🎬 Scenario-Based Workflows
-*Responding to specific events or incidents*
+## 11. 📝 Content Analysis & Enhancement
+*Improve written content through multi-stage analysis*
 
-- **Analyze Incident → Create Cyber Summary**: Break down security breach, generate executive summary.
-- **Analyze Threat Report → Create Keynote**: Analyze complex threat, create detailed presentation.
+```bash
+analyze_prose_pinker | humanize | create_better_frame | improve_academic_writing
+```
+- Analyzes writing style
+- Makes content more relatable
+- Reframes perspective
+- Enhances academic quality
 
-## 12. 🔀 Transformative Pairing
-*Transforming concepts between domains*
+## 12. 🎯 Strategic Analysis Framework
+*Comprehensive strategic planning and analysis*
 
-- **Create Aphorisms → Analyze Spiritual Text**: Generate modern wisdom, analyze spiritual resonance.
-- **Create Art Prompt → Create Logo**: Generate abstract concept, inspire company logo design.
+```bash
+t_strategic_analysis | analyze_military_strategy | create_scenario_analysis | t_contrarian_analysis
+```
+- Performs strategic assessment
+- Analyzes tactical approaches
+- Creates future scenarios
+- Challenges assumptions
+
+## 13. 💼 Product Development Pipeline
+*From feedback to feature specification*
+
+```bash
+analyze_product_feedback | extract_primary_problem | create_prd | create_design_document
+```
+- Analyzes user feedback
+- Identifies core issues
+- Creates product requirements
+- Generates technical specs
+
+## 14. 🌟 Personal Development Workflow
+*Comprehensive self-improvement journey*
+
+```bash
+t_life_mission | create_personal_philosophy | t_compass_analysis | create_micro_summary
+```
+- Defines life purpose
+- Develops personal philosophy
+- Analyzes from multiple perspectives
+- Creates actionable summary
+
+## 15. 🔬 Research Paper Analysis Suite
+*Deep dive into academic literature*
+
+```bash
+analyze_paper | extract_methodology | extract_controversial_ideas | create_recursive_outline
+```
+- Analyzes paper content
+- Extracts research methods
+- Identifies provocative ideas
+- Creates detailed outline
+
+## 16. 🎨 Creative Content Generation
+*Multi-format creative content pipeline*
+
+```bash
+create_story | extract_main_idea | create_tweet_storm | create_hormozi_offer
+```
+- Generates narrative
+- Extracts core message
+- Creates social media content
+- Develops compelling offer
+
+## 17. 📊 Data Visualization Pipeline
+*Transform raw data into insights*
+
+```bash
+extract_patterns | create_graph_from_input | create_excalidraw_visualization | create_investigation_visualization
+```
+- Identifies data patterns
+- Creates statistical graphs
+- Generates diagrams
+- Builds investigation visuals
+
+## 18. 🏗️ Infrastructure Analysis & Documentation
+*Complete infrastructure review and documentation*
+
+```bash
+analyze_terraform_plan | analyze_risk | create_security_decision_record | create_design_document
+```
+- Reviews infrastructure code
+- Assesses risks
+- Documents security decisions
+- Creates architecture docs
+
+## 19. 🎯 Interview Preparation Suite
+*Comprehensive interview readiness workflow*
+
+```bash
+t_job_interview | extract_questions | answer_interview_question | create_flash_cards
+```
+- Generates interview scenarios
+- Extracts key questions
+- Prepares answers
+- Creates study materials
+
+## 20. 📈 Business Innovation Pipeline
+*From idea to implementation*
+
+```bash
+extract_business_ideas | analyze_proposition | create_hormozi_offer | create_prd
+```
+- Extracts business concepts
+- Analyzes feasibility
+- Creates compelling offers
+- Develops product requirements
 
 ## 13. ✅ Validation Pipelines
 *Testing and improving ideas or outputs*

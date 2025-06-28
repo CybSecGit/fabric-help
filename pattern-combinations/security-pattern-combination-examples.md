@@ -48,10 +48,151 @@ This document outlines various ways to combine different security-related patter
 
 - **Analyze Logs → Create Cyber Summary → Create Keynote**: 
   Detect anomalies, summarize key findings, brief decision-makers.
-- **Analyze Threat Report → Compare and Contrast → Create 5 Sentence Summary**: 
-  Compare multiple threat reports, identify trends, communicate main findings.
+- **Create Network Threat Landscape → Create Visualization → Create Report Finding**: 
+  Map threat environment, visualize attack surface, document findings.
 
-## 8. 🤖 Security Workflow Automation
+## 8. 🔥 AI-Powered Threat Intelligence Pipeline
+*Complete threat intelligence workflow with detection rules*
+
+```bash
+analyze_threat_report | extract_indicators | create_sigma_rules | create_detection_rules
+```
+- Analyzes threat reports
+- Extracts IOCs and TTPs
+- Generates Sigma rules
+- Creates platform-specific detections
+
+## 9. 🛡️ Security Incident Response Chain
+*End-to-end incident handling and investigation*
+
+```bash
+analyze_incident | analyze_logs | extract_indicators | create_investigation_visualization
+```
+- Analyzes incident details
+- Examines relevant logs
+- Extracts indicators of compromise
+- Creates visual investigation timeline
+
+## 10. 🔐 Ransomware Preparedness Suite
+*Comprehensive ransomware defense assessment*
+
+```bash
+t_ransomware_assessment | analyze_risk | create_security_decision_record | create_test_plan
+```
+- Assesses ransomware readiness
+- Analyzes organizational risks
+- Documents security decisions
+- Creates testing scenarios
+
+## 11. 🕵️ Threat Hunting Automation
+*Advanced threat hunting with automated detection*
+
+```bash
+analyze_threat_report_cmds | extract_patterns | create_sigma_rules | create_detection_rules
+```
+- Extracts command-line artifacts
+- Identifies behavioral patterns
+- Generates detection rules
+- Creates hunt queries
+
+## 12. 📋 Security Compliance Documentation
+*Complete security documentation pipeline*
+
+```bash
+analyze_terraform_plan | ask_secure_by_design_questions | create_security_decision_record | create_report_finding
+```
+- Reviews infrastructure security
+- Asks security design questions
+- Documents decisions
+- Creates formal findings
+
+## 13. 🎯 Vulnerability Management Pipeline
+*From discovery to remediation tracking*
+
+```bash
+analyze_logs | extract_vulnerabilities | create_report_finding | create_prd
+```
+- Analyzes security logs
+- Extracts vulnerability data
+- Documents findings
+- Creates remediation requirements
+
+## 14. 🔍 Malware Analysis Suite
+*Comprehensive malware investigation*
+
+```bash
+analyze_malware | extract_indicators | create_sigma_rules | create_investigation_visualization
+```
+- Performs malware analysis
+- Extracts behavioral indicators
+- Creates detection rules
+- Visualizes attack chain
+
+## 15. 🌐 Cloud Security Assessment
+*Multi-cloud security evaluation*
+
+```bash
+analyze_terraform_plan | analyze_bill | analyze_risk | create_security_update
+```
+- Reviews cloud infrastructure
+- Analyzes cost implications
+- Assesses security risks
+- Creates security bulletins
+
+## 16. 🚀 Security Operations Automation
+*Automated SecOps workflows*
+
+```bash
+analyze_logs | create_command | create_unit_test | create_documentation
+```
+- Analyzes security events
+- Generates response commands
+- Creates test cases
+- Documents procedures
+
+## 17. 📊 Executive Security Reporting
+*C-suite ready security insights*
+
+```bash
+analyze_threat_report_trends | create_cyber_summary | create_keynote | create_executive_summary
+```
+- Analyzes threat trends
+- Creates cyber summary
+- Develops presentation
+- Produces executive brief
+
+## 18. 🔐 Zero Trust Implementation
+*Zero trust architecture planning*
+
+```bash
+ask_secure_by_design_questions | t_strategic_analysis | create_design_document | create_test_plan
+```
+- Evaluates security requirements
+- Performs strategic analysis
+- Creates architecture docs
+- Develops validation tests
+
+## 19. 🎨 Security Visualization Suite
+*Multi-format security data visualization*
+
+```bash
+create_network_threat_landscape | create_excalidraw_visualization | create_investigation_visualization | create_graph_from_input
+```
+- Maps threat landscape
+- Creates architecture diagrams
+- Builds investigation visuals
+- Generates data graphs
+
+## 20. 🔧 DevSecOps Pipeline
+*Security-first development workflow*
+
+```bash
+analyze_codebase | ask_secure_by_design_questions | create_sigma_rules | create_test_plan
+```
+- Analyzes code security
+- Asks design questions
+- Creates security rules
+- Develops test scenarios
 
 - **Analyze Logs → Create Command → Check Agreement**: 
   Analyze security issues, generate automation scripts, ensure policy compliance.
